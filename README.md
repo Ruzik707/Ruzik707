@@ -32,8 +32,8 @@
 
 ## 📫 Контакты
 - Email: R89061187131@gmail.com
-- Telegram: @[ваш_username]
-- Резюме: [Ссылка на Google Drive с PDF]
+- Telegram: @ruzel_sali
+- Резюме: 
 
 ## 📊 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ruzik707&show_icons=true&theme=default)
