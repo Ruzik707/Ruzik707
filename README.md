@@ -10,24 +10,20 @@
 - Активно участвую в хакатонах и курсах
 
 ## 🛠 Технологии
-**Основные:**
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
 **ML/DL:**
-![PyTorch](...) ![Transformers](https://img.shields.io/badge/Hugging%20Face-FF8C00?logo=hugging-face)
-![CatBoost](https://img.shields.io/badge/CatBoost-00881B?logo=catboost)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![Transformers](https://img.shields.io/badge/Hugging%20Face-FF8C00?logo=hugging-face)
+![CatBoost](https://img.shields.io/badge/CatBoost-00881B?logo=catboost) ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 **Data:**
-![Pandas](...) ![SQL](...) ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-00D4AA?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white) ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-00D4AA?logo=python) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-**Опыт работы с:**
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ## 📂 Мои проекты
+
+### 🧬 [Tatar NLP Detox](https://github.com/Ruzik707/PM-24-6)
+Участие в хакатоне по детоксификации текстов
+**Custom dataset 1k+** татарских текстов, ruT5 fine-tune (loss 0.6)
 
 ### 🔥 [WB Arbitrage Parser](https://github.com/Ruzik707/wb_parser)
 Парсер данных Wildberries с аналитикой и визуализацией
@@ -36,10 +32,6 @@
 ### 🤖 [Cheese Shop Bot](https://github.com/Ruzik707/telegram_bot_kamil) 
 Бот для автоматизации заказов в малом бизнесе
 **Production для ИП**: 100+ заказов/мес, автоматизация каталога
-
-### 🧬 [Tatar NLP Detox](https://github.com/Ruzik707/PM-24-6)
-Участие в хакатоне по детоксификации текстов
-**Custom dataset 1k+** татарских текстов, ruT5 fine-tune (loss 0.6)
 
 
 ## 📫 Контакты & Стажировки
