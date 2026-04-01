@@ -21,7 +21,7 @@
 
 ## 📂 Мои проекты
 
-### 🧬 [Tatar NLP Detox](https://github.com/Ruzik707/PM-24-6)
+### 🧬 [Tatar NLP Detox](https://github.com/Ruzik707/NLP-Hakaton)
 Участие в хакатоне по детоксификации текстов
 **Custom dataset 1k+** татарских текстов, ruT5 fine-tune (loss 0.6)
 
