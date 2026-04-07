@@ -71,7 +71,7 @@
 ## 📫 Контакты
 ✉️ [R89061187131@gmail.com](mailto:R89061187131@gmail.com)  
 💬 [@ruzel_sali](https://t.me/ruzel_sali)  
-📄 [Резюме (PDF)](https://drive.google.com/file/d/140JCRaqkB01Uwx9B0vFYWbHaKe94vInf/view?usp=sharing)  
+📄 [Резюме (PDF)](https://drive.google.com/file/d/1jDJ78CMHgsnXtyz8VC1WZK0K43eo97Yu/view?usp=sharing)  
 
 > ✨ **Открыт к предложениям**: стажировка / Junior ML Engineer / Data Scientist  
 > 📍 Москва | 🔄 Готов к тестовым заданиям и собеседованиям
