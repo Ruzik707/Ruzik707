@@ -32,16 +32,17 @@ Git, DVC, Pandera, S3, Jupyter, Google Colab, Telegram Bot API
 
 ## Ключевые проекты
 
-### Real Estate Price Predictor / PriceVision (https://github.com/Ruzik707/Gazprom_project)
+### PriceVision / Flat Inspector  (https://github.com/Ruzik707/Gazprom_project)
 
-End-to-end проект для анализа объявлений о недвижимости и подготовки ML-пайплайна для прогнозирования цен.
+End-to-end ML-сервис для оценки стоимости квартир в Москве по параметрам объявления и текстовому описанию.
 
-* Реализован парсер объявлений с ЦИАН: цена, площадь, этаж, адрес, метро, характеристики, описание, ссылки на изображения.
-* Данные сохраняются в JSONL и версионируются через DVC.
-* Используются `uv`, `pyproject.toml`, структурированный `src/` и отдельные notebook-эксперименты.
-* Следующий этап: EDA, feature engineering, CatBoost/LightGBM baseline, сравнение моделей и анализ ошибок.
+* Собрал пайплайн обработки данных по объявлениям о недвижимости: парсинг, очистка, EDA, feature engineering и подготовка признаков.
+* Обучил CatBoostRegressor для предсказания логарифма цены квартиры; после Optuna tuning получил R² ≈ 0.934 и MAPE ≈ 13.25% на validation.
+* Добавил текстовые эмбеддинги описаний объявлений через `BAAI/bge-m3` и PCA для сокращения размерности.
+* Реализовал Telegram-бота на `aiogram`: пользователь загружает Excel-шаблон с параметрами квартиры, выбирает категориальные признаки и получает оценку стоимости.
+* Использовал DVC для версионирования данных, `uv`/`pyproject.toml` для зависимостей и отдельные notebook-эксперименты для EDA, feature engineering и tuning.
 
-**Стек:** Python, Pandas, BeautifulSoup, DVC, Pandera, CatBoost, S3
+**Стек:** Python, Pandas, CatBoost, Optuna, Sentence Transformers, PCA, DVC, aiogram, Telegram Bot API
 
 ---
 
