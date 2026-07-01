@@ -46,16 +46,16 @@ End-to-end ML-сервис для оценки стоимости квартир
 
 ---
 
-### Tatar Text Detoxification (https://github.com/Ruzik707/NLP-Hakaton)
+### Tatar Text Detoxification Hackathon (https://github.com/Ruzik707/NLP-Hakaton)
 
-NLP-проект по детоксификации текстов на татарском языке с сохранением исходного смысла.
+Командный NLP-проект в рамках хакатона «ИИ-ЗАМАН Хак» по детоксикации текста на татарском языке.
 
-* Собран датасет из 8,325 пар текстов: токсичная формулировка → нейтральная формулировка.
-* Выполнен fine-tuning модели `Tweeties/tweety-7b-tatar-v24a` с использованием LoRA.
-* Использовались PyTorch, Hugging Face Transformers, PEFT, TRL, Unsloth и 4-bit quantization.
-* Подготовлены примеры работы модели и описание пайплайна обучения.
+* Отвечал за сбор, очистку и проверку качества пар “токсичный текст → нейтральная формулировка”.
+* Проверял корректность татарского языка, сохранение смысла и адекватность нейтрализации как носитель языка.
+* Подготовил датасет из 7к+ пар текстов для экспериментов команды.
+* Участвовал в исследовании подходов к LoRA fine-tuning языковых моделей для low-resource NLP-задачи.
 
-**Стек:** PyTorch, Hugging Face Transformers, LoRA, PEFT, TRL, Unsloth, Google Colab
+**Стек проекта:** Python, JSONL, PyTorch, Hugging Face, LoRA, Unsloth
 
 ---
 
