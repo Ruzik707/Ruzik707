@@ -29,9 +29,9 @@ Git, DVC, Pandera, S3, Jupyter, Google Colab, Telegram Bot API
 
 ---
 
-## Ключевой проект
+## Проекты
 
-### [PriceVision / Flat Inspector](https://github.com/Ruzik707/Gazprom_project)
+### ![PriceVision / Flat Inspector](https://github.com/Ruzik707/Gazprom_project)
 
 End-to-end ML-сервис для оценки стоимости квартир в Москве по параметрам объекта и текстовому описанию.
 
@@ -45,9 +45,7 @@ End-to-end ML-сервис для оценки стоимости квартир
 
 ---
 
-## Дополнительные проекты
-
-### [Tatar Text Detoxification Hackathon](https://github.com/Ruzik707/NLP-Hakaton)
+### ![Tatar Text Detoxification Hackathon](https://github.com/Ruzik707/NLP-Hakaton)
 
 Командный NLP-проект в рамках хакатона «ИИ-ЗАМАН Хак» по детоксикации текста на татарском языке.
 
@@ -60,7 +58,20 @@ End-to-end ML-сервис для оценки стоимости квартир
 
 ---
 
-### [WB Product Monitoring Parser](https://github.com/Ruzik707/wb-parser)
+### ![Speaker Recognition Datathon](https://github.com/Ruzik707/datathon-speaker-rec)
+
+Хакатонный ML-проект по распознаванию диктора: для каждой аудиозаписи нужно было найти ближайшие записи того же говорящего по голосовым эмбеддингам.
+
+- Собрал компактный inference pipeline на базе pretrained `SpeechBrain ECAPA-TDNN`.
+- Реализовал извлечение аудиоэмбеддингов, cosine similarity / nearest-neighbour search и генерацию `submission.csv`.
+- Экспериментировал с линейной головой поверх эмбеддингов, шумовыми аугментациями и multi-view inference.
+- Проанализировал ограничения подхода: качество сильно зависело от выбора pretrained backbone и доступных вычислительных ресурсов.
+
+**Стек:** Python, PyTorch, SpeechBrain, ECAPA-TDNN, audio embeddings, cosine similarity
+
+---
+
+### ![WB Product Monitoring Parser](https://github.com/Ruzik707/wb-parser)
 
 Python-скрипт для мониторинга товарных карточек Wildberries, фильтрации предложений и экспорта результатов в Excel.
 
