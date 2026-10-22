@@ -1,102 +1,58 @@
-# Привет, я Рузель 👋
+# Привет, я Рузель
 
-**ML / Data Science Intern**
-Студент Финансового университета при Правительстве РФ, направление: **Прикладная математика и информатика / прикладное машинное обучение**.
+**ML Engineer / Data Scientist · Intern / Junior**
 
-Интересуюсь прикладным машинным обучением, NLP/LLM и end-to-end разработкой ML-решений: от сбора и анализа данных до обучения моделей, инференса и демо.
+Студент 3-го курса Финансового университета при Правительстве РФ,
+«Прикладная математика и информатика», выпуск — 2028.
+Разрабатываю прикладные ML-решения: от подготовки данных и экспериментов
+до инференса и интеграции в приложения. Основные интересы — классический ML,
+NLP/LLM и AI-системы.
 
----
+## Основные проекты
 
-## Обо мне
+### [PriceVision — оценка стоимости недвижимости](https://github.com/Ruzik707/Gazprom_project)
 
-* Учусь на направлении, связанном с прикладной математикой, информатикой и машинным обучением.
-* Делаю проекты на стыке ML, NLP, парсинга данных и Python-автоматизации.
-* Основной интерес сейчас: классический ML, табличные данные, NLP/LLM, PyTorch и ML-пайплайны.
-* Усиливаю базу по ML/DL-теории, алгоритмам и подготовке к ML/Data Science стажировкам.
+Самостоятельный проект ML-акселератора Газпромбанка × Финансового университета:
+сбор объявлений, EDA, feature engineering, CatBoost, текстовые эмбеддинги
+`BAAI/bge-m3` и PCA, подбор параметров Optuna, DVC и Telegram-прототип на aiogram.
 
----
+В исходном эксперименте после тюнинга: **R² для log(price) ≈ 0.934,
+MAPE ≈ 13.25%** на validation. Методика и ограничения оценки описаны в README
+проекта; независимый итоговый test не выделен.
+
+### [SourceCraft Repo Health — оценка Git-репозиториев](https://github.com/Ruzik707/SourceCraft_project)
+
+Командный проект хакатона «Лидеры цифровой трансформации — 2026», кейс SourceCraft.
+Скоринг 0–100 по шести категориям, объяснение оценки и рекомендации.
+Командная выгрузка включает **27 761 репозиторий**.
+
+**Мой вклад:** EDA, feature engineering, разработка объяснимого скоринга,
+подбор весов через Optuna, участие в FastAPI-бэкенде и LLM-интеграции
+для AI summary и рекомендаций. Сборщик и интерфейс — работа других участников.
+
+## Дополнительный опыт
+
+- [Детоксификация татарского текста](https://github.com/Ruzik707/NLP-Hakaton) —
+  подготовка и лингвистическая проверка 7 000+ пар; участие в командных
+  экспериментах с LoRA fine-tuning.
+- [Speaker Recognition](https://github.com/Ruzik707/datathon-speaker-rec) —
+  baseline на SpeechBrain ECAPA-TDNN, аудиоэмбеддинги и поиск ближайших записей.
+- [MayakBot](https://github.com/Ruzik707/MayakBot) — эксперимент с RAG,
+  векторным поиском и Telegram-ботами.
+- [WB Parser](https://github.com/Ruzik707/wb-parser) — Python-автоматизация,
+  асинхронный сбор данных и экспорт в Excel.
 
 ## Технологии
 
-**ML / DL:**
-Python, Scikit-learn, CatBoost, PyTorch, Hugging Face Transformers, PEFT/LoRA
+**ML и данные:** Python, SQL, Pandas, NumPy, scikit-learn, CatBoost, Optuna.
 
-**Data:**
-Pandas, NumPy, SQL, JSONL, aiohttp, requests
+**NLP / DL:** PyTorch, Hugging Face, Sentence Transformers, эмбеддинги, RAG.
 
-**MLOps / Tools:**
-Git, DVC, Pandera, S3, Jupyter, Google Colab, Telegram Bot API
-
----
-
-## Проекты
-
-### ![PriceVision / Flat Inspector](https://github.com/Ruzik707/Gazprom_project)
-
-End-to-end ML-сервис для оценки стоимости квартир в Москве по параметрам объекта и текстовому описанию.
-
-* Собрал пайплайн обработки данных по объявлениям о недвижимости: парсинг, очистка, EDA, feature engineering и подготовка признаков.
-* Обучил `CatBoostRegressor` для предсказания логарифма цены квартиры; после Optuna tuning получил **R² ≈ 0.934** и **MAPE ≈ 13.25%** на validation.
-* Добавил текстовые эмбеддинги описаний объявлений через `BAAI/bge-m3` и PCA для сокращения размерности.
-* Реализовал Telegram-бота на `aiogram`: пользователь загружает Excel-шаблон с параметрами квартиры, выбирает категориальные признаки и получает оценку стоимости.
-* Использовал DVC для версионирования данных, `uv` / `pyproject.toml` для зависимостей и отдельные notebook-эксперименты для EDA, feature engineering и tuning.
-
-**Стек:** Python, Pandas, CatBoost, Optuna, Sentence Transformers, PCA, DVC, aiogram, Telegram Bot API
-
----
-
-### ![Tatar Text Detoxification Hackathon](https://github.com/Ruzik707/NLP-Hakaton)
-
-Командный NLP-проект в рамках хакатона «ИИ-ЗАМАН Хак» по детоксикации текста на татарском языке.
-
-* Отвечал за data-centric часть проекта: сбор, очистку и проверку пар “токсичный текст → нейтральная формулировка”.
-* Проверял корректность татарского языка, сохранение смысла и адекватность нейтрализации как носитель языка.
-* Подготовил датасет из 7k+ пар текстов для экспериментов команды.
-* Участвовал в исследовании LoRA fine-tuning подходов для low-resource NLP-задачи.
-
-**Стек:** Python, JSONL, PyTorch, Hugging Face, LoRA, Unsloth
-
----
-
-### ![Speaker Recognition Datathon](https://github.com/Ruzik707/datathon-speaker-rec)
-
-Хакатонный ML-проект по распознаванию диктора: для каждой аудиозаписи нужно было найти ближайшие записи того же говорящего по голосовым эмбеддингам.
-
-- Собрал компактный inference pipeline на базе pretrained `SpeechBrain ECAPA-TDNN`.
-- Реализовал извлечение аудиоэмбеддингов, cosine similarity / nearest-neighbour search и генерацию `submission.csv`.
-- Экспериментировал с линейной головой поверх эмбеддингов, шумовыми аугментациями и multi-view inference.
-- Проанализировал ограничения подхода: качество сильно зависело от выбора pretrained backbone и доступных вычислительных ресурсов.
-
-**Стек:** Python, PyTorch, SpeechBrain, ECAPA-TDNN, audio embeddings, cosine similarity
-
----
-
-### ![WB Product Monitoring Parser](https://github.com/Ruzik707/wb-parser)
-
-Python-скрипт для мониторинга товарных карточек Wildberries, фильтрации предложений и экспорта результатов в Excel.
-
-* Реализовал асинхронный сбор данных по категориям Wildberries.
-* Извлекал цену, кешбэк, рейтинг, количество отзывов и ссылки на товары.
-* Фильтровал товары по соотношению кешбэка и цены.
-* Сохранял найденные товары в Excel для дальнейшего анализа.
-
-**Стек:** Python, asyncio, aiohttp, Pandas, tqdm, openpyxl
-
----
-
-## Сейчас прокачиваю
-
-* Deep Learning School МФТИ: PyTorch, CNN, CV, NLP, Transformers
-* Классический ML: валидация, метрики, leakage, бустинг, feature engineering
-* Алгоритмы и структуры данных: LeetCode
-* Подготовку к ML / Data Science стажировкам
-
----
+**Разработка:** FastAPI, aiogram, Docker Compose, Git, DVC, S3, Linux.
 
 ## Контакты
 
-* GitHub: [github.com/Ruzik707](https://github.com/Ruzik707)
-* Telegram: [@ruzel_sali](https://t.me/ruzel_sali)
-* Email: [R89061187131@gmail.com](mailto:R89061187131@gmail.com)
+[Telegram: @ruzel_sali](https://t.me/ruzel_sali) ·
+[Email](mailto:R89061187131@gmail.com)
 
-Открыт к ML / Data Science / NLP стажировкам.
+Открыт к стажировкам и junior-позициям в ML / Data Science / NLP / AI.
