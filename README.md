@@ -1,58 +1,70 @@
-# Привет, я Рузель
+# Рузель Салихов
 
 **ML Engineer / Data Scientist · Intern / Junior**
 
-Студент 3-го курса Финансового университета при Правительстве РФ,
-«Прикладная математика и информатика», выпуск — 2028.
-Разрабатываю прикладные ML-решения: от подготовки данных и экспериментов
-до инференса и интеграции в приложения. Основные интересы — классический ML,
-NLP/LLM и AI-системы.
+Москва · [Telegram](https://t.me/ruzel_sali) · [Email](mailto:R89061187131@gmail.com)
 
-## Основные проекты
+Студент 3-го курса Финансового университета, «Прикладная математика и информатика»,
+выпуск — 2028. Работаю с табличными данными, NLP/LLM и ML-сервисами:
+подготовка данных → эксперименты → оценка качества → инференс в приложении.
+Ищу стажировку или junior-позицию в ML / Data Science / NLP.
 
-### [PriceVision — оценка стоимости недвижимости](https://github.com/Ruzik707/Gazprom_project)
+## Избранные проекты
 
-Самостоятельный проект ML-акселератора Газпромбанка × Финансового университета:
-сбор объявлений, EDA, feature engineering, CatBoost, текстовые эмбеддинги
-`BAAI/bge-m3` и PCA, подбор параметров Optuna, DVC и Telegram-прототип на aiogram.
+### [PriceVision — оценка стоимости квартир](https://github.com/Ruzik707/Gazprom_project)
 
-В исходном эксперименте после тюнинга: **R² для log(price) ≈ 0.934,
-MAPE ≈ 13.25%** на validation. Методика и ограничения оценки описаны в README
-проекта; независимый итоговый test не выделен.
+Самостоятельный проект ML-акселератора Газпромбанка × Финансового университета.
+Собрал данные и ML-пайплайн, сравнил варианты CatBoost с текстовыми признаками,
+добавил Optuna и Telegram-интерфейс с загрузкой Excel.
 
-### [SourceCraft Repo Health — оценка Git-репозиториев](https://github.com/Ruzik707/SourceCraft_project)
+**Результат эксперимента:** MAPE ≈ 13.25%, R² для log(price) ≈ 0.934 на validation.
+Методика и ограничения оценки раскрыты в README проекта.
+
+`CatBoost` · `Optuna` · `bge-m3` · `PCA` · `DVC` · `aiogram`
+
+[Сравнение моделей](https://github.com/Ruzik707/Gazprom_project#результаты-экспериментов) ·
+[Код инференса](https://github.com/Ruzik707/Gazprom_project/blob/main/tg_bot/bot.py) ·
+[Демо бота](https://github.com/Ruzik707/Gazprom_project/blob/main/docs/bot_demo.md)
+
+### [SourceCraft Repo Health — объяснимый скоринг репозиториев](https://github.com/Ruzik707/SourceCraft_project)
 
 Командный проект хакатона «Лидеры цифровой трансформации — 2026», кейс SourceCraft.
-Скоринг 0–100 по шести категориям, объяснение оценки и рекомендации.
-Командная выгрузка включает **27 761 репозиторий**.
+Шесть категорий, оценка 0–100, разбор факторов и рекомендации на каталоге
+из **27 761 публичного репозитория**.
 
-**Мой вклад:** EDA, feature engineering, разработка объяснимого скоринга,
-подбор весов через Optuna, участие в FastAPI-бэкенде и LLM-интеграции
-для AI summary и рекомендаций. Сборщик и интерфейс — работа других участников.
+**Мой вклад:** EDA, feature engineering, методика скоринга и подбор весов через
+Optuna (500 trials); участие в FastAPI-бэкенде и LLM-интеграции.
+Сборщик и интерфейс разработали другие участники команды.
 
-## Дополнительный опыт
+`Pandas` · `Optuna` · `FastAPI` · `SQLAlchemy` · `LLM` · `Docker Compose`
 
-- [Детоксификация татарского текста](https://github.com/Ruzik707/NLP-Hakaton) —
-  подготовка и лингвистическая проверка 7 000+ пар; участие в командных
-  экспериментах с LoRA fine-tuning.
-- [Speaker Recognition](https://github.com/Ruzik707/datathon-speaker-rec) —
-  baseline на SpeechBrain ECAPA-TDNN, аудиоэмбеддинги и поиск ближайших записей.
-- [MayakBot](https://github.com/Ruzik707/MayakBot) — эксперимент с RAG,
-  векторным поиском и Telegram-ботами.
-- [WB Parser](https://github.com/Ruzik707/wb-parser) — Python-автоматизация,
-  асинхронный сбор данных и экспорт в Excel.
+[Методика](https://github.com/Ruzik707/SourceCraft_project/blob/main/docs/methodology.md) ·
+[Код скоринга](https://github.com/Ruzik707/SourceCraft_project/blob/main/scoring/normalizer.py) ·
+[Примеры отчётов](https://github.com/Ruzik707/SourceCraft_project/tree/main/docs/examples)
 
-## Технологии
+## Дополнительные проекты
 
-**ML и данные:** Python, SQL, Pandas, NumPy, scikit-learn, CatBoost, Optuna.
+| Проект | Что показывает |
+| --- | --- |
+| [Tatar Text Detoxification](https://github.com/Ruzik707/NLP-Hakaton) | Подготовка и лингвистическая проверка 7 511 пар для малоресурсного NLP; участие в командном LoRA-эксперименте |
+| [Speaker Recognition](https://github.com/Ruzik707/datathon-speaker-rec) | ECAPA-TDNN, аудиоэмбеддинги, FAISS, nearest-neighbour retrieval |
+| [MayakBot](https://github.com/Ruzik707/MayakBot) | RAG с ChromaDB, два Telegram-сценария, LLM API и Docker Compose |
+| [WB Parser](https://github.com/Ruzik707/wb-parser) | Асинхронный сбор данных, фильтрация, Excel и Telegram-уведомления |
+
+<details>
+<summary>Другие эксперименты</summary>
+
+- [SmartSearch](https://github.com/Ruzik707/SmartSearch_LMpro) — остановленный
+  эксперимент с CLIP и мультимодальным поиском товаров.
+- [Cheese Shop Bot](https://github.com/Ruzik707/telegram_bot_kamil) — прототип
+  Telegram-каталога для семейного бизнеса.
+
+</details>
+
+## Инструменты
+
+**ML / Data:** Python, SQL, Pandas, NumPy, scikit-learn, CatBoost, Optuna.
 
 **NLP / DL:** PyTorch, Hugging Face, Sentence Transformers, эмбеддинги, RAG.
 
-**Разработка:** FastAPI, aiogram, Docker Compose, Git, DVC, S3, Linux.
-
-## Контакты
-
-[Telegram: @ruzel_sali](https://t.me/ruzel_sali) ·
-[Email](mailto:R89061187131@gmail.com)
-
-Открыт к стажировкам и junior-позициям в ML / Data Science / NLP / AI.
+**Разработка:** FastAPI, aiogram, Git, Docker Compose, DVC, S3, Linux.
